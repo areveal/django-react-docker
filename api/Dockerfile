@@ -1,0 +1,9 @@
+FROM python:3.8.13-bullseye
+
+ENV PYTHONBUFFERED=1
+
+WORKDIR /api
+
+COPY . .
+
+EXPOSE 8000
