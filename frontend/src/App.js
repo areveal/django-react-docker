@@ -6,7 +6,7 @@ function App() {
   const [currentDate, setCurrentDate] = useState(0);
   // Get current date and time from Backend
   useEffect(() => {
-    fetch('http://127.0.0.1:8080').then(res => res.json()).then(data => {
+    fetch('http://127.0.0.1:8000').then(res => res.json()).then(data => {
       setCurrentTime(data.time);
       setCurrentDate(data.date);
     });
