@@ -1,1 +1,4 @@
 .idea
+
+/api/project/__pycache__/
+api/db.sqlite3
